@@ -1,0 +1,11 @@
+root = true
+
+[*]
+indent_style = tab                  # (space|tab) tabulations ou espaces '    ' ou '....'
+indent_size = 4
+tab_width = 4
+charset = utf-8
+trim_trailing_whitespace = true		# supprime les espaces en debut et fin de ligne
+insert_final_newline = true			# insert une nouvelle ligne à la fin du fichier
+end_of_line = lf					# parcourt le code de gauche à droite
+max_line_length = off
