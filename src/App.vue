@@ -1,32 +1,53 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view />
-  </div>
+	<div id="app"></div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+<script>
+export default {
+	name: 'App',
+}
+</script>
+
+<style lang="css">
+a {
+	text-decoration: none;
 }
 
-#nav {
-  padding: 30px;
+h1 {
+	font-family: Staatliches;
+	font-size: 120px;
+}
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
+#category {
+	font-family: Staatliches;
+	font-weight: 500;
+}
 
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+#title {
+	letter-spacing: 0.4px;
+	font-size: 22px;
+	font-size: 1.375rem;
+	line-height: 1.13636;
+}
+
+#banner {
+	margin: 20px;
+	height: 800px;
+}
+
+#editor {
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1.75;
+}
+
+.uk-navbar-container {
+	background: #fff !important;
+	font-family: Staatliches;
+}
+
+img:hover {
+	opacity: 1;
+	transition: opacity 0.25s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 </style>
